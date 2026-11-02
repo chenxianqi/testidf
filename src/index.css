@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* 品牌色:改这里,全站跟着变(bg-brand / text-brand / ring-brand …) */
+@theme {
+  --color-brand: #3b6cf6;
+  --color-brand-dark: #2a55d4;
+  --font-sans: -apple-system, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
