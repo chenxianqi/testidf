@@ -3,9 +3,9 @@ import LeadForm from '../components/LeadForm';
 import site from '../../idf.json';
 
 const points = [
-  { icon: Sparkles, title: '专业', text: '多年经验的团队,为你量身定制方案' },
-  { icon: MessageCircle, title: '贴心', text: '一对一顾问,有问题随时找得到人' },
-  { icon: CheckCircle2, title: '靠谱', text: '透明的流程和价格,不满意可退' },
+  { icon: Sparkles, title: '专业1', text: '多年经验的团队,为你量身定制方案' },
+  { icon: MessageCircle, title: '贴心1', text: '一对一顾问,有问题随时找得到人' },
+  { icon: CheckCircle2, title: '靠谱1', text: '透明的流程和价格,不满意可退' },
 ];
 
 export default function Home() {
