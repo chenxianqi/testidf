@@ -14,7 +14,7 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-6 pt-20 pb-12 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl">{site.name}</h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
-          一句话说清你能帮客户解决什么问题。
+          一句话说清你能帮客户解决什么问题。1
         </p>
         <a
           href="#contact"
