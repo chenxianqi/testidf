@@ -2,11 +2,20 @@
 
 /* 品牌色:改这里,全站跟着变(bg-brand / text-brand / ring-brand …) */
 @theme {
-  --color-brand: #3b6cf6;
-  --color-brand-dark: #2a55d4;
+  --color-brand: #7d9471;        /* 鼠尾草绿 */
+  --color-brand-dark: #5f7355;   /* 深一点的鼠尾草,按压/深色底 */
+  --color-brand-light: #e8eee1;  /* 浅鼠尾草,标签/图标底 */
+  --color-cream: #fbf8f2;        /* 暖白,页面底色 */
+  --color-sand: #f1eae0;         /* 米沙,分割块 */
+  --color-ink: #303a30;          /* 柔和的墨绿黑,正文标题 */
   --font-sans: -apple-system, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  --font-serif: "Songti SC", "Noto Serif SC", Georgia, "Times New Roman", serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
 }
